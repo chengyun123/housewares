@@ -1,0 +1,15 @@
+<div class th:fragment="html" xmlns:th="http://www.w3.org/1999/xhtml">
+    <a th:href="${application.contextPath}">
+        <img id="logo" src="img/site/home.png" class="logo">
+    </a>
+    <form action="search" method="get" >
+        <div class="searchDiv">
+            <input name="keyword" type="text" placeholder="窗帘 懒人沙发">
+            <button  type="submit" class="searchButton">搜索</button>
+            <div class="searchBelow">
+
+
+            </div>
+        </div>
+    </form>
+</div>

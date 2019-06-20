@@ -1,0 +1,706 @@
+/*registerPage*/
+
+div.registerDiv {
+    margin: 10px 20px;
+    text-align: center;
+}
+
+div.registerErrorMessageDiv {
+    width: 600px;
+    margin: 0px auto;
+    height: 50px;
+    visibility: hidden;
+}
+
+div.registerDiv table.registerTable {
+    color: #3C3C3C;
+    font-size: 16px;
+    table-layout: fixed;
+    margin-top: 50px;
+}
+
+div.registerDiv table.registerTable td {
+    padding: 10px 30px;
+}
+
+div.registerDiv td.registerTableLeftTD {
+    width: 300px;
+    text-align: right;
+
+}
+
+div.registerDiv td.registerTableRightTD {
+    width: 300px;
+    text-align: left;
+}
+
+div.registerDiv td.registerTip {
+    font-weight: bold;
+}
+
+div.registerDiv table.registerTable input {
+    border: 1px solid #DEDEDE;
+    width: 213px;
+    height: 36px;
+    font-size: 14px;
+}
+
+div.registerDiv td.registerButtonTD {
+    text-align: center;
+}
+
+div.registerDiv table.registerTable button {
+    width: 170px;
+    height: 36px;
+    border-radius: 2px;
+    color: white;
+    background-color: #7db9de ;
+    border-width: 0px;
+}
+
+
+/*registerSuccessPage*/
+div.registerSuccessDiv {
+    margin: 10px 20px;
+    background-color: #7db9de;
+    border: 1px solid #7db9de;
+    font-size: 18px;
+    color:white;
+    padding: 20px 130px;
+}
+
+/*loginAndBack*/
+div.loginBackSmallDiv {
+    background-color: white;
+    position: absolute;
+    right: 370px;
+    top: 180px;
+    width: 500px;
+    height: 350px;
+    margin:0px auto;
+    padding: 60px 25px 80px 25px;
+}
+
+
+
+/*loginPage*/
+
+img.loginBackgroundImg {
+    display: block;
+    margin: 0px auto;
+}
+
+div.loginDivInProductPageModalDiv {
+    width: 350px;
+}
+
+div.loginDivInProductPage {
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    padding: 60px 25px 80px 25px;
+}
+
+div.loginSmallDiv {
+    background-color: white;
+    position: absolute;
+    right: 180px;
+    top: 180px;
+    width: 350px;
+    height: 400px;
+    padding: 60px 25px 80px 25px;
+}
+
+div.loginErrorMessageDiv {
+    width: 300px;
+    position: absolute;
+    top: 20px;
+    visibility: hidden;
+}
+
+div.loginErrorMessageDiv div.alert {
+    padding: 5px !important;
+}
+
+div.login_acount_text {
+    color: #3C3C3C;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div.loginInput {
+    border: 1px solid #CBCBCB;
+    margin: 20px 0px;
+}
+
+div.loginInput input {
+    display: inline-block;
+    border: 0px solid transparent;
+    width: 244px;
+    height: 30px;
+    position: relative;
+    left: 6px;
+    top: 6px;
+}
+
+div.loginInput span, div.loginInput input {
+    display: inline-block;
+}
+
+div.loginInput span.loginInputIcon {
+    margin: 0px;
+    background-color: #CBCBCB;
+    width: 40px;
+    height: 40px;
+}
+
+span.loginInputIcon span.glyphicon {
+    font-size: 22px;
+    position: relative;
+    left: 9px;
+    top: 9px;
+    color: #606060;
+}
+
+button.blueButton {
+    color: white;
+    background-color: #7db9de;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+
+/*modalLogin*/
+div.loginDivInProductPageModalDiv {
+    width: 350px;
+}
+
+div.loginDivInProductPage {
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    padding: 60px 25px 80px 25px;
+}
+
+
+/*sortBar*/
+
+div.categoryPageDiv{
+    max-width: 1024px;
+    margin: 20px auto;
+    background-color: #7db9de;
+
+}
+
+div.categorySortBar{
+    background-color:#e1f5fe;
+    margin: 100px;
+    padding:2px;
+    margin: 0px auto;
+}
+
+table.categorySortBarTable{
+    border-collapse: collapse;
+    display: inline-block;
+
+}
+
+table.categorySortBarTable td{
+    height: 15px;
+    font-size: 12px;
+    width: 45px;
+
+}
+
+table.categorySortBarTable td.kuan{
+    border:1px solid #58b2dc;
+}
+
+table.categorySortBarTable td.blueColumn{
+    background-color: #7db9de;
+}
+
+
+
+table.categorySortBarTable td a{
+    color: #806F66;
+    text-decoration: none;
+
+}
+
+table.categorySortBarTable td a:hover{
+    color:#3C3C3C;
+
+}
+
+table.categorySortBarTable input{
+    border-width: 0px;
+    height: 15px;
+    width: 50px;
+
+}
+
+table.categorySortBarTable td.priceMiddleColumn{
+    vertical-align: middle;
+    color: #f9dbbd;
+
+}
+
+table.categorySortTable td:hover{
+    background-color: #e1f5fe;
+}
+
+table.categorySortBarTable span.glyphicon{
+    font-size: 12px;
+}
+
+table.categorySortBarTable td.priceMiddleColumn{
+    width: 5px;
+    vertical-align: middle;
+    color:#806F66;
+}
+
+
+/*productByCategory  searchProductsResult*/
+div.categoryPagediv{
+    max-width: 1024px;
+    margin: 10px auto;
+    background-color: #b3e5fc;
+    height:750px;
+}
+
+div.categoryProducts{
+    padding: 0px 20px 40px 20px;
+}
+
+div.productUnit{
+    width: 160px;
+    height: 240px;
+    background-color: #b3e5fc;
+    margin-top: 40px;
+    margin-left: 75px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+
+div.productUnit span.productPrice{
+    font-size: 15px;
+    color:#e67b79;
+    display: block;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+div.productUnit img.productImage{
+    margin:0px auto;
+    width: 160px;
+    height: 140px;
+}
+
+div.productUnit a.productLink{
+    margin: 10px 0px;
+    color: #333333;
+    text-decoration: none;
+    display: block;
+    height: 20px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+div.productUnit a.productLink:hover{
+    text-decoration: none;
+    color: #51a8dd;
+}
+
+div.productUnit div.productInfo{
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #e67b79;
+    color: #333333;
+}
+
+div.productUnit span.productDealNumber{
+    font-weight: bold;
+    color: #e67b79;
+}
+
+div.productUnit span.productReview{
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #e67b79;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #e67b79;
+
+}
+
+div.productUnit span.productReviewNumber{
+    font-weight: bold;
+    color: #e67b79;
+}
+
+div.productUnit span.monthDeal,div.productUnit span.productReview{
+    display: inline-block;
+    width: 60px;
+    height: 15px;
+    padding-top: 1px;
+    padding-left: 5px;
+    font-size: 10px;
+
+}
+
+div.productUnit span.service {
+    padding-left: 3px;
+}
+
+
+
+/*productReview*/
+div.productReviewDiv{
+    width: 790px;
+    margin: 40px auto;
+}
+div.productReviewTopPart{
+    border: 1px solid #DFDFDF;
+
+}
+a.productReviewTopPartSelectedLink{
+    padding: 0px 20px;
+    color: #333333;
+}
+div.productReviewDiv a.selected{
+    border-left: 1px solid #cfbfb1;
+    border-right: 1px solid #cfbfb1;
+    color: #3a8fb7;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 46px;
+    width: 90px;
+    text-align: center;
+    position: relative;
+}
+div.productReviewDiv a.selected:before{
+    content: "";
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #3a8fb7;
+    width: 90px;
+    height: 0;
+    position: absolute;
+    top: -1px;
+    margin-left: -1px;
+}
+div.productReviewDiv a.selected:after{
+    content: "";
+    display: block;
+    border-color: #3a8fb7 transparent transparent;
+    border-style: solid;
+    border-width: 5px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    margin-left: -5px;
+}
+div.productReviewContentPart{
+    padding-top: 50px;
+}
+div.productReviewItem{
+    border-bottom: 1px solid #E3E3E3;
+    margin: 10px 0px;
+}
+div.productReviewItem div.productReviewItemDesc{
+    width: 80%;
+    display: inline-block;
+    color: #333333;
+    margin: 5px 20px;
+    float: left;
+}
+div.productReviewItemDate{
+    margin: 15px 0px 0px 0px;
+    color: #CCCCCC;
+}
+div.productReviewItem div.productReviewItemUserInfo{
+    color: #404040;
+    margin: 5px 20px;
+    padding: 20px 0;
+}
+span.userInfoGrayPart{
+    color: #999999;
+}
+div.productReviewDiv a:hover{
+    color:#005caf;
+    text-decoration:none;
+}
+
+
+/*productDetail*/
+div.productDetailDiv{
+    width: 790px;
+    margin: 40px auto;
+}
+div.productDetailTopPart{
+    border: 1px solid #DFDFDF;
+    border-left-width: 0px;
+
+
+}
+div.productDetailDiv a.selected{
+    border-left: 1px solid #cfbfb1;
+    border-right: 1px solid #cfbfb1;
+    color: #3a8fb7;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 46px;
+    width: 90px;
+    text-align: center;
+    position: relative;
+}
+div.productDetailDiv a.selected:before{
+    content:"";
+    display: block;
+    border-width: 1px;
+    border-color: #3a8fb7;
+    border-style: solid;
+    width: 90px;
+    height: 0;
+    position: absolute;
+    top: -1px;
+    margin-left: -1px;
+}
+div.productDetailDiv a.selected:after{
+    content: "";
+    display: block;
+    border-color: #3a8fb7 transparent transparent;
+    border-style: solid;
+    border-width: 5px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    margin-left: -5px;
+}
+div.productDetailDiv a.productDetailReviewTopLink{
+    padding: 0px 20px;
+    border-right: 1px dotted #D2D2D2;
+    color: #333333;
+}
+span.productDetailTopReviewLinkNumber{
+    color: #3355B9;
+}
+div.productParamterPart{
+    border: 1px solid #DFDFDF;
+    padding: 40px;
+
+}
+div.productParamter{
+    color: #999999;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+div.productParamterList span{
+    display: block;
+    width: 220px;
+    float: left;
+    padding: 8px 0px;
+    color: #666666;
+}
+div.productDetailImagesPart img{
+    display: block;
+    width: 790px;
+    margin:20px 0px;
+}
+
+div.productDetailDiv a:hover{
+    text-decoration:none;
+    color: #005caf;
+}
+
+/*reviewPage*/
+div.reviewDiv{
+    max-width: 1013px;
+    margin: 10px auto;
+}
+div.reviewProductInfoImg{
+    border: 1px solid #E7E7E7;
+    width: 464px;
+    text-align: center;
+    float: left;
+    background-color: #7db9de;
+}
+div.reviewProductInfoRightDiv{
+    overflow: hidden;
+    border-top: 1px solid #E7E7E7;
+    padding: 30px 20px;
+}
+div.reviewProductInfoRightText{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+table.reviewProductInfoTable{
+    margin: 20px 10px;
+    font-size:12px;
+}
+table.reviewProductInfoTable td{
+    padding-bottom: 5px;
+    color: #999999;
+}
+span.reviewProductInfoTablePrice{
+    color: #3a8fb7;
+    font-size: 20px;
+    font-weight: bold;
+}
+span.reviewProductInfoTableSellNumber{
+    color: #3a8fb7;
+    font-size: 14px;
+    font-weight: bold;
+}
+div.reviewProductInfoRightBelowDiv{
+    border: 1px solid #7db9de;
+    background-color: #e1f5fe;
+    height: 166px;
+    padding:16px 0px 16px 81px;
+}
+
+span.reviewProductInfoRightBelowText{
+    border: 1px solid #EFEFEF;
+    display: inline-block;
+    width: 200px;
+    height: 42px;
+    padding: 4px;
+    position: relative;
+    left: -4px;
+    top: -7px;
+    color: #666666;
+    font-size:12px;
+}
+img.reviewProductImg{
+    width:400px;
+    height:400px;
+}
+
+div.reviewStasticsDiv{
+    margin-top: 20px;
+}
+div.reviewStasticsLeft{
+    width: 180px;
+    float: left;
+}
+div.reviewStasticsLeftTop{
+    background-color: #7db9de;
+    height: 6px;
+}
+div.reviewStasticsLeftContent{
+    line-height: 29px;
+    border-left: 1px solid #D5D4D4;
+    border-right: 1px solid #D5D4D4;
+    background-color: #e1f5fe;
+    text-align: center;
+    font-size: 14px;
+    color: #363535;
+    font-weight: bold;
+}
+div.reviewStasticsLeftFoot{
+    height: 6px;
+    border-left: 1px solid #7db9de;
+    border-bottom: 1px solid #7db9de;
+    background-color: #e1f5fe;
+}
+span.reviewStasticsNumber{
+    color: #284CA5;
+}
+div.reviewStasticsRight{
+    overflow: hidden;
+}
+div.reviewStasticsRightEmpty{
+    height: 35px;
+}
+div.reviewStasticsFoot{
+    background-color: #e1f5fe;
+    border: 1px solid #D5D4D4;
+    border-left-width: 0px;
+    height: 6px;
+}
+
+div.reviewDivlistReviewsEach div {
+    display: inline-block;
+}
+
+div.reviewDivlistReviewsEach {
+    padding: 20px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+div.reviewDate {
+    width: 100px;
+}
+
+div.reviewDate {
+    color: #CCCCDD;
+}
+
+div.reviewContent {
+    color: #333333;
+    width: 698px;
+}
+
+div.reviewUserInfo {
+    color: #333333;
+}
+
+span.reviewUserInfoAnonymous {
+    color: #CCCCDD;
+    margin-left: 5px;
+}
+div.makeReviewDiv{
+    border: 1px solid #D1CCC8;
+    margin: 20px 0px;
+    background-color: #e1f5fe;
+}
+div.makeReviewText{
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+    margin: 20px 40px;
+}
+table.makeReviewTable{
+    margin: 20px 40px;
+    font-size: 12px;
+}
+table.makeReviewTable td{
+    border: 1px solid #E7E7E7;
+    padding: 10px;
+    background-color: white;
+}
+table.makeReviewTable textarea{
+    border-width: 0px;
+    resize: none;
+    width: 420px;
+    height: 120px;
+}
+td.makeReviewTableFirstTD{
+    background-color: #e1f5fe;
+}
+div.makeReviewButtonDiv{
+    background-color: #7db9de;
+    text-align: center;
+    padding: 15px;
+}
+div.makeReviewButtonDiv button{
+    width: 72px;
+    height: 26px;
+    border-radius: 2px;
+    background-color: #3a8fb7;
+    color: white;
+    border-width: 0px;
+    font-weight: bold;
+}
+
+
